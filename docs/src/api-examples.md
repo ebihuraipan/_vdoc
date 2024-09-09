@@ -29,6 +29,7 @@ const { theme, page, frontmatter } = useData()
 
 <script setup>
 import { useData } from 'vitepress'
+import Playground from '../.vitepress/components/Playground.vue'
 
 const { site, theme, page, frontmatter } = useData()
 </script>
@@ -47,3 +48,6 @@ const { site, theme, page, frontmatter } = useData()
 ## More
 
 Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+
+
+<playground />

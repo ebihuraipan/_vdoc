@@ -25,5 +25,6 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
-  srcDir: './src'
+  srcDir: './src', // md置き場のルート
+  lastUpdated: true, // ページ末尾にgitの最終更新日
 })
